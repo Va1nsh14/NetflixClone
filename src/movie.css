@@ -1,0 +1,27 @@
+.movie-popup {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+}
+.movie-btn svg {
+  color: #ffffff;
+  filter: invert(1);
+  width: 2rem;
+  height: 2rem;
+}
